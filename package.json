@@ -1,0 +1,46 @@
+{
+  "name": "@munin/hooks",
+  "version": "0.1.0",
+  "description": "Platform-agnostic React hooks bridging @munin/core with UI layers",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "@munin/core": "^0.1.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@munin/core": "portal:/home/jmrmedev/repos/munin-core",
+    "@testing-library/dom": "10.3.1",
+    "@testing-library/react": "16.0.0",
+    "@testing-library/react-hooks": "8.0.1",
+    "@types/react": "18.3.3",
+    "jsdom": "24.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.5.3",
+    "vitest": "1.6.0"
+  },
+  "packageManager": "yarn@4.3.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munvu/munin-hooks.git"
+  }
+}
