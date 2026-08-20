@@ -1,6 +1,6 @@
 {
   "name": "@munin-media/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Platform-agnostic React hooks bridging @munin-media/core with UI layers",
   "type": "module",
   "main": "./dist/index.js",
