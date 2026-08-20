@@ -1,5 +1,5 @@
 /**
- * Shared types for @munin/hooks return values and options.
+ * Shared types for @munin-media/hooks return values and options.
  */
 
 /** Standard async state wrapper returned by all hooks */

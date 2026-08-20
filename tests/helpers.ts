@@ -2,8 +2,8 @@
  * Test helpers — mock MuninInstance for hook testing.
  */
 
-import type { MuninInstance, ProgressEntry, SeriesProgress, UserRating, Collection, Recommendation, CandidateTitle } from '@munin/core';
-import type { MuninEvents } from '@munin/core';
+import type { MuninInstance, ProgressEntry, SeriesProgress, UserRating, Collection, Recommendation, CandidateTitle } from '@munin-media/core';
+import type { MuninEvents } from '@munin-media/core';
 
 type EventHandler<T> = (data: T) => void;
 

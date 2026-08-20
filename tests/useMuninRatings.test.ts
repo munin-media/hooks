@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import { renderHook, waitFor, act } from '@testing-library/react';
 import { useMuninRatings } from '../src/useMuninRatings.js';
 import { createMockMunin } from './helpers.js';
-import type { UserRating } from '@munin/core';
+import type { UserRating } from '@munin-media/core';
 
 describe('useMuninRatings', () => {
   const mockRatings: UserRating[] = [

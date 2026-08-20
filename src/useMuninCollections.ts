@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import type { MuninInstance, Collection } from '@munin/core';
+import type { MuninInstance, Collection } from '@munin-media/core';
 import type { AsyncState } from './types.js';
 
 /**

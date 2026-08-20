@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import type { MuninInstance, ProgressEntry } from '@munin/core';
+import type { MuninInstance, ProgressEntry } from '@munin-media/core';
 import type { AsyncState, ContinueWatchingOptions } from './types.js';
 
 /**

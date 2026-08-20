@@ -1,5 +1,5 @@
 /**
- * @munin/hooks — Platform-agnostic React hooks for @munin/core.
+ * @munin-media/hooks — Platform-agnostic React hooks for @munin-media/core.
  *
  * Bridges the zero-knowledge media memory library with React UI layers.
  * Works identically on web and React Native (no DOM dependencies).

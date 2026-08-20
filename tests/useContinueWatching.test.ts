@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import { renderHook, waitFor, act } from '@testing-library/react';
 import { useContinueWatching } from '../src/useContinueWatching.js';
 import { createMockMunin } from './helpers.js';
-import type { ProgressEntry } from '@munin/core';
+import type { ProgressEntry } from '@munin-media/core';
 
 describe('useContinueWatching', () => {
   const inProgressEntries: ProgressEntry[] = [
